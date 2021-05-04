@@ -5,6 +5,11 @@ module.exports = {
     fontFamily: {
       'serif': ['Abhaya Libre']
     },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary': '#21a4b6',
+      'secondary': '#ffcd6d',
+    }),
     extend: {},
   },
   variants: {
